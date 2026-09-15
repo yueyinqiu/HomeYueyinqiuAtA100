@@ -19,7 +19,7 @@
   };
 
   outputs = inputs: {
-    homeConfigurations."yueyinqiu@earth-latitude7490" =
+    homeConfigurations."yueyinqiu@a100" =
       let
         system = "x86_64-linux";
       in
