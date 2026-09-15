@@ -1,16 +1,15 @@
 {
   inputs = {
-    earth = {
-      url = "github:yueyinqiu/HomeYueyinqiuAtEarthLatitude7490";
-    };
     nixpkgs = {
-      follows = "earth/nixpkgs";
+      url = "github:NixOS/nixpkgs/nixos-unstable";
     };
+
     home-manager = {
-      follows = "earth/home-manager";
+      url = "github:nix-community/home-manager/master";
     };
+    
     nur = {
-      follows = "earth/nur";
+      url = "github:nix-community/NUR";
     };
     
     nix-airgap = {
