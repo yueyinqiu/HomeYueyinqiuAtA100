@@ -6,7 +6,7 @@ let
   remoteOutLink = "/media/a100/c5e1bf65-7974-432f-8aed-7a1345241efe/lujiaqi/yueyinqiu/.cache/dev-switch/result";
 in
 pkgs.writeShellApplication {
-  inherit name;
+  name = name;
   text = ''
     "${nix-airgap.airgap}/bin/nix-airgap" \
       "${installable}" \
